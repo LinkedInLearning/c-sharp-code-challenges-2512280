@@ -1,6 +1,6 @@
-# [DE-Kursname hier eintragen]
+# Code-Challenges für C#
 
-Dies ist das Repository für den **LinkedIn Learning** Kurs `[COURSENAME]`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
+Dies ist das Repository für den **LinkedIn Learning** Kurs `Code-Challenges für C#`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
 ![COURSENAME][lil-thumbnail-url][Copy&Past Image from LiL-Buddy] 
 
