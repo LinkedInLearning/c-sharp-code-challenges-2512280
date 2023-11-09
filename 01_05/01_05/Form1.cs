@@ -17,6 +17,7 @@ namespace EmailtestRegex
         {
             InitializeComponent();
         }
+        
         /// <summary>
         /// Genauere Validierung einer E-Mail-Adresse mit regulärem Ausdruck
         /// </summary>
@@ -34,18 +35,12 @@ namespace EmailtestRegex
              * $                :   Ende mit dem dem beschriebenen Ausdruck
              */
 
-            Regex regex = new Regex(@"^[a-zA-Z]([\w\-]*)@[a-zA-Z0-9]([\w\-\.]*)((\.(\w){2,})+)$");
-            Match match = regex.Match(textBox1.Text);
-            if (match.Success)
-            {
-                textBox2.Text = "Die E-Mail erfüllt wichtige Regeln und könnte valide sein.";
-                return true;
-            }
-            else
-            {
-                textBox2.Text = "Die E-Mail erfüllt wichtige Regeln nicht und ist nicht valide.";
-                return false;
-            }
+            /*
+            *
+            * Your Code goes here
+            *
+            */
+            return default;
         }
         private void button2_Click(object sender, EventArgs e)
         {
